@@ -1,0 +1,237 @@
+/* Reset some default margins */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Center the header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for all forms */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields styling for all pages */
+input[type="text"], input[type="time"], input[type="password"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button styling for all pages */
+button, .task-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make links behave like buttons */
+}
+
+button:hover, .task-button:hover {
+    background-color: #218838;
+}
+
+/* Style for each task display */
+#newtask div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#newtask span {
+    font-size: 16px;
+}
+
+/* Style the edit and remove links to look like buttons */
+a.task-button {
+    margin-left: 10px;
+    background-color: #007bff; /* Button color for edit/remove */
+}
+
+a.task-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Edit Task Page Specific Styles */
+
+/* Style the form in edit_task.html similarly */
+form.edit-task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields in edit_task.html */
+input[type="text"], input[type="time"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Update and Cancel buttons styling */
+button, a.task-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+button:hover, a.task-button:hover {
+    background-color: #218838;
+}
+
+/* Cancel button specific styling for edit_task.html */
+a.cancel-button {
+    background-color: #dc3545; /* Red background for cancel button */
+}
+
+a.cancel-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Login Page Specific Styles */
+
+/* Style the form for the login page */
+form.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields for the login form */
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Login button styling */
+button.login-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background for login button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling for the register link */
+p {
+    text-align: center;
+}
+
+p a {
+    color: #007bff; /* Blue color for register link */
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+/* Reset some default margins */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Center the header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Register Page Specific Styles */
+
+/* Style the form for the register page */
+form.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields for the register form */
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Register button styling */
+button.register-button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background for register button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.register-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for the login link */
+p {
+    text-align: center;
+}
+
+p a {
+    color: #007bff; /* Blue color for login link */
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
